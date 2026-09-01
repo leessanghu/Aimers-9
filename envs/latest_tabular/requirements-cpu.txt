@@ -1,0 +1,17 @@
+# Python 3.11 target. Keep close to the evaluation server stack.
+numpy==1.26.4
+pandas==2.0.3
+scipy==1.15.3
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# Core CPU tabular models.
+lightgbm
+xgboost
+catboost
+optuna
+
+# Utilities.
+psutil
+pyarrow
+

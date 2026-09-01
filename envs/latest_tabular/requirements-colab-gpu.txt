@@ -1,0 +1,21 @@
+# Colab GPU experiments only. Do not assume these belong in final submit.
+numpy==1.26.4
+pandas==2.0.3
+scipy
+scikit-learn
+joblib
+optuna
+pyarrow
+psutil
+
+# Colab usually provides torch with CUDA. Install only if missing in the notebook.
+# torch
+
+# Neural tabular candidates.
+tabm
+einops
+torchmetrics
+
+# Optional model scouting. Heavy; avoid in final packaged submit.
+autogluon.tabular
+

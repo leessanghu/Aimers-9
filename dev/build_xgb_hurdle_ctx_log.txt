@@ -1,0 +1,19 @@
+﻿[     9s] core_fail 복원 1,474,300행  비율=0.3445
+[     9s] === fold A (train<=2023 -> 2024) ===
+[    69s] [A] m1(core_fail) 학습완료 best_iter=313
+[   128s] [A] m2(success|~core_fail) 학습완료 best_iter=403
+
+=== fold A (train<=2023 -> 2024) ===
+  hurdle_xgb 단독 BSS = 30.41
+[   128s] === fold C (train<=2021 -> 2022) ===
+[   154s] [C] m1(core_fail) 학습완료 best_iter=65
+[   191s] [C] m2(success|~core_fail) 학습완료 best_iter=204
+
+=== fold C (train<=2021 -> 2022) ===
+  hurdle_xgb 단독 BSS = 1138.21
+[   191s] v88_final 대비 클린검증...
+
+=== v88_final 대비 클린 max-gain (fold A) ===
+  대조군  H1->H2=  +1.31  H2->H1=  +2.07  평균=  +1.69
+  xgb_hurdle_ctx  H1->H2=  +1.94  H2->H1=  +0.02  평균=  +0.98
+[   191s] 완료

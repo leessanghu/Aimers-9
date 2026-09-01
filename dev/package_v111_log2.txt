@@ -1,0 +1,23 @@
+﻿Load model...
+ OK. w_hgb=0.5  w_cat=0.5  HGB3변종  Cat3변종  features=162
+Load test data...
+ test=5  submission=5
+Build features (v28 = v27 + inseason middle/strike + batter middle + batter platoon)...
+ features=162
+Inference model...
+ + RiskAdj(thr=0.250, alpha=0.045, center=0.1441, 적용행=5/5)
+ + K2Adj(K=1500, alpha=0.5724, center=-0.00119, 적용행=0/5)
+ preds=5  (HGB 3변종 + CatBoost 3변종 + Hurdle(w=0.19) + MultiRes(w=0.05) + Ordinal(w=0.10) + MidOther3H(w=0.12) + CondBall(w=0.06) + CountResid(w=0.06) + Future50(w=0.06) + MC5(w=0.14) + InGame(w=0.08)  [level_shift=-0.0003])
+Build submission...
+Saved: C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\submit\output\submission.csv (rows=5)
+모델 파일 확인: C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\submit\model\model_artifacts_v111.pkl (140.5MB)
+임시로 빼둔 파일 개수: 103 (다른 pkl + codex 잔재)
+script.py가 실제로 볼 model_artifacts_v*.pkl: ['model_artifacts_v111.pkl']
+script.py 실행 (스모크 테스트)...
+스모크 테스트 통과: submission.csv 6줄
+row_id,control_success
+TEST_000001,0.4117055164677744
+TEST_000017,0.3745472330238462
+
+패키징 완료: C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\submit_v111_seedbag.zip (93.5MB)
+복원 시도 완료

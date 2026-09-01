@@ -1,0 +1,27 @@
+﻿전체 middle: 220,563  전체 reverse: 287,401
+
+=== middle x 판정축 교차 ===
+  middle&ball      n=   40,311  middle중 비중=18.28%  성공률=0.00%
+  middle&strike    n=  117,612  middle중 비중=53.32%  성공률=0.00%
+  middle&inplay    n=   62,640  middle중 비중=28.40%  성공률=0.00%
+
+=== reverse x 판정축 교차 ===
+  reverse&ball     n=  113,428  reverse중 비중=39.47%  성공률=0.00%
+  reverse&strike   n=  124,215  reverse중 비중=43.22%  성공률=0.00%
+  reverse&inplay   n=   49,758  reverse중 비중=17.31%  성공률=0.00%
+
+=== 순수성 검증: 이 세분류에서도 성공률이 정확히 0%인가? ===
+  전부 순수(0%)? True
+
+=== 새로운 10클래스 구조 제안 ===
+  middle&ball    n=   40,311 ( 2.73%)  성공률=  0.00%
+  middle&strk    n=  117,612 ( 7.97%)  성공률=  0.00%
+  middle&play    n=   62,640 ( 4.25%)  성공률=  0.00%
+  reverse&ball   n=  113,428 ( 7.69%)  성공률=  0.00%
+  reverse&strk   n=  124,215 ( 8.42%)  성공률=  0.00%
+  reverse&play   n=   49,758 ( 3.37%)  성공률=  0.00%
+  succ_ball      n=  194,196 (13.17%)  성공률=  0.00%
+  succ_strk      n=  231,157 (15.67%)  성공률=100.00%
+  succ_play      n=  384,470 (26.06%)  성공률=100.00%
+  wild           n=  156,513 (10.61%)  성공률=100.00%
+  합계 커버리지 = 99.95%  (10클래스, wild는 미분할 유지)

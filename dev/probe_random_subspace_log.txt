@@ -1,0 +1,43 @@
+﻿[     5s] === fold A (train<=2023 -> 2024) ===
+[   213s]   [A/full] model0 feats=162 BSS=  849.1 best_iter=437 (205s)
+[   353s]   [A/full] model1 feats=162 BSS=  829.8 best_iter=284 (139s)
+[   531s]   [A/full] model2 feats=162 BSS=  833.9 best_iter=406 (176s)
+[   690s]   [A/full] model3 feats=162 BSS=  841.6 best_iter=361 (158s)
+[   811s]   [A/full] model4 feats=162 BSS=  848.4 best_iter=253 (121s)
+[   878s]   [A/subspace] model0 feats=97 BSS=  764.8 best_iter=177 (66s)
+[   963s]   [A/subspace] model1 feats=97 BSS=  819.2 best_iter=256 (85s)
+[  1065s]   [A/subspace] model2 feats=97 BSS=  823.1 best_iter=279 (101s)
+[  1145s]   [A/subspace] model3 feats=97 BSS=  494.4 best_iter=239 (80s)
+[  1280s]   [A/subspace] model4 feats=97 BSS=  813.2 best_iter=436 (135s)
+
+=== fold A (2024) 비교 ===
+                  개별평균BSS    ambiguity     ->점수      앙상블BSS      모델간상관
+full                840.5     0.000053    +21.0       861.6     0.9701
+subspace            742.9     0.000164    +65.8       808.7     0.9042
+
+  강제다양화 효과 분해:
+    개별오차 변화  = -97.6점  (음수면 개별모델이 나빠진 것)
+    ambiguity 변화 = +44.8점  (양수면 다양성 증가)
+    순 앙상블 효과 = -52.9점  <- 이게 최종 판정
+[  1281s] === fold C (train<=2021 -> 2022) ===
+[  1350s]   [C/full] model0 feats=162 BSS= 2252.9 best_iter=210 (69s)
+[  1398s]   [C/full] model1 feats=162 BSS= 2263.6 best_iter=137 (47s)
+[  1458s]   [C/full] model2 feats=162 BSS= 2243.1 best_iter=176 (60s)
+[  1510s]   [C/full] model3 feats=162 BSS= 2191.4 best_iter=143 (51s)
+[  1568s]   [C/full] model4 feats=162 BSS= 2267.2 best_iter=156 (58s)
+[  1609s]   [C/subspace] model0 feats=97 BSS= 1895.6 best_iter=157 (40s)
+[  1651s]   [C/subspace] model1 feats=97 BSS= 2173.2 best_iter=172 (42s)
+[  1689s]   [C/subspace] model2 feats=97 BSS= 2176.9 best_iter=144 (37s)
+[  1723s]   [C/subspace] model3 feats=97 BSS= 2167.9 best_iter=134 (34s)
+[  1766s]   [C/subspace] model4 feats=97 BSS= 2182.8 best_iter=173 (43s)
+
+=== fold C (2022) 비교 ===
+                  개별평균BSS    ambiguity     ->점수      앙상블BSS      모델간상관
+full               2243.6     0.000035    +13.9      2257.5     0.9846
+subspace           2119.3     0.000089    +35.6      2154.9     0.9577
+
+  강제다양화 효과 분해:
+    개별오차 변화  = -124.4점  (음수면 개별모델이 나빠진 것)
+    ambiguity 변화 = +21.7점  (양수면 다양성 증가)
+    순 앙상블 효과 = -102.6점  <- 이게 최종 판정
+[  1766s] 완료

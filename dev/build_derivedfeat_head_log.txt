@@ -1,0 +1,18 @@
+﻿[     9s] === fold A ===
+python : Traceback (most recent call last):
+At line:1 char:302
++ ... xt' } catch {} } }; python dev/build_derivedfeat_head.py *>&1 | Tee-O ...
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\build_derivedfeat_head.py", line 160, in <module>
+    pA, blendA, residA, yvA = run(2023, 2024, 'A')
+                              ~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\build_derivedfeat_head.py", line 119, in run
+    f4_tr, f5_tr = build_pt_features(upto, tr)   # train쪽은 walk-forward 아님(단순근사, 스크리닝용)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\build_derivedfeat_head.py", line 73, in build_pt_features
+    g_wild = float(valid[tr].astype(float).mean() and wild[tr & valid[tr]].mean())
+                                                           ~~~^~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (1475092,) (1221184,) 

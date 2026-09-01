@@ -1,0 +1,20 @@
+﻿=== 각 fold에서 "최적 t"를 그 fold 전체로 찾으면? (참고용, 이식 전) ===
+  foldA: 자체최적 t=0.60  자체이득=+8.14
+  foldC: 자체최적 t=0.60  자체이득=+66.52
+
+=== 교차연도 이식: fold A에서 찾은 t를 fold C에, 반대도 ===
+     t(고정)       A에서이득       C에서이득        평균
+python : Traceback (most recent call last):
+At line:1 char:302
++ ... catch {} } }; python dev/probe_reallocation_crossyear.py *>&1 | Tee-O ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\probe_reallocation_crossyear.py", line 86, in <module>
+    gA = data['A']['sc'](make_blend(data['A']['H'], weights_at_t(W0, t), 'A')) - data['A']['sc'](data['A']['blend0'])
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\probe_reallocation_crossyear.py", line 69, in <lambda>
+    sc = lambda pp: 1e5 * (1 - np.mean((np.clip(pp, 0, 1) - yv) ** 2) / B_)
+                                        ~~~~~~~~~~~~~~~~~~^~~~
+ValueError: operands could not be broadcast together with shapes (253507,) (247472,) 

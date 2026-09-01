@@ -1,0 +1,59 @@
+import os
+import shutil
+import zipfile
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+SUBMIT = os.path.join(BASE, "..", "submit")
+SUBMIT = os.path.abspath(SUBMIT)
+DATA_DIR = os.path.join(SUBMIT, "data")
+OUT_DIR = os.path.join(SUBMIT, "output")
+ZIP_PATH = os.path.join(BASE, "..", "submit_v40_multires.zip")
+ZIP_PATH = os.path.abspath(ZIP_PATH)
+
+pkl_path = os.path.join(SUBMIT, "model", "model_artifacts_v40.pkl")
+assert os.path.exists(pkl_path), f"모델 파일 없음: {pkl_path}"
+print(f"모델 파일 확인: {pkl_path} ({os.path.getsize(pkl_path)/1e6:.1f}MB)")
+
+# 스모크 테스트용 임시 data/ 준비
+os.makedirs(DATA_DIR, exist_ok=True)
+real_data = os.path.abspath(os.path.join(BASE, "..", "data"))
+shutil.copy(os.path.join(real_data, "test.csv"), os.path.join(DATA_DIR, "test.csv"))
+shutil.copy(os.path.join(real_data, "sample_submission.csv"), os.path.join(DATA_DIR, "sample_submission.csv"))
+os.makedirs(OUT_DIR, exist_ok=True)
+print("스모크 테스트용 data/ 준비 완료")
+
+print("script.py 실행 (스모크 테스트)...")
+ret = os.system(f'cd "{SUBMIT}" && python script.py')
+sub_csv = os.path.join(OUT_DIR, "submission.csv")
+assert ret == 0, f"script.py 실행 실패 (exit={ret})"
+assert os.path.exists(sub_csv), "output/submission.csv 생성 안 됨"
+with open(sub_csv, encoding="utf-8") as f:
+    lines = f.readlines()
+print(f"스모크 테스트 통과: submission.csv {len(lines)}줄 (헤더 포함)")
+print("".join(lines[:3]))
+
+# 임시 폴더 정리
+shutil.rmtree(DATA_DIR, ignore_errors=True)
+shutil.rmtree(OUT_DIR, ignore_errors=True)
+pycache = os.path.join(SUBMIT, "__pycache__")
+shutil.rmtree(pycache, ignore_errors=True)
+print("임시 data/output/__pycache__ 삭제 완료")
+
+# zip 패키징
+if os.path.exists(ZIP_PATH):
+    os.remove(ZIP_PATH)
+with zipfile.ZipFile(ZIP_PATH, "w", zipfile.ZIP_DEFLATED) as z:
+    z.write(os.path.join(SUBMIT, "script.py"), "script.py")
+    z.write(os.path.join(SUBMIT, "requirements.txt"), "requirements.txt")
+    z.write(pkl_path, "model/model_artifacts_v40.pkl")
+
+with zipfile.ZipFile(ZIP_PATH) as z:
+    names = z.namelist()
+    print("zip 안 파일:", names)
+    pkl_names = [n for n in names if n.startswith("model/") and n.endswith(".pkl")]
+    assert len(pkl_names) == 1, f"model/*.pkl 이상함: {pkl_names}"
+    assert "script.py" in names
+    assert "requirements.txt" in names
+    assert len(names) == 3, f"불필요한 파일 포함됨: {names}"
+
+print(f"\n패키징 완료: {ZIP_PATH} ({os.path.getsize(ZIP_PATH)/1e6:.1f}MB)")

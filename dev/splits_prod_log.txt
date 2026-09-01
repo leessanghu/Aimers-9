@@ -1,0 +1,11 @@
+﻿[    14s] [same_hand] 버킷0 학습행 736,171
+[   674s] [same_hand] 버킷0 완료 best_iter=433
+[   675s] [same_hand] 버킷1 학습행 738,129
+[  1553s] [same_hand] 버킷1 완료 best_iter=647
+[  1554s] [same_hand] 저장 완료
+[  1555s] [two_strike] 버킷0 학습행 1,055,553
+[  2655s] [two_strike] 버킷0 완료 best_iter=533
+[  2655s] [two_strike] 버킷1 학습행 418,747
+[  3113s] [two_strike] 버킷1 완료 best_iter=516
+[  3114s] [two_strike] 저장 완료
+[  3114s] 전체 완료

@@ -1,0 +1,20 @@
+﻿[     9s] === fold A (train<=2023 -> 2024) ===
+[     9s] [A] persona 피처 생성...
+[    26s] [A] 학습 n=984,172  persona피처=66개  전체피처=228개
+[   187s] [A] 학습완료 best_iter=192
+
+=== fold A (train<=2023 -> 2024) ===
+  persona_head 단독 BSS = 813.53
+[   187s] === fold C (train<=2021 -> 2022) ===
+[   187s] [C] persona 피처 생성...
+[   200s] [C] 학습 n=491,175  persona피처=66개  전체피처=228개
+[   309s] [C] 학습완료 best_iter=257
+
+=== fold C (train<=2021 -> 2022) ===
+  persona_head 단독 BSS = 1843.65
+[   309s] v88_final 대비 클린검증...
+
+=== v88_final 대비 클린 max-gain (fold A) ===
+  대조군  H1->H2=  +1.31  H2->H1=  +2.07  평균=  +1.69
+  persona_head  H1->H2=  +1.57  H2->H1=  -0.08  평균=  +0.75
+[   310s] 완료

@@ -1,0 +1,56 @@
+﻿[     0s] 로드...
+[    23s] X=(1475092, 162)  n=1,475,092  global=0.52377
+[    24s] 라벨 유효 1,474,300/1,475,092
+[    24s] === multires ===
+[  1218s]   best_iter=654 (1193s)
+[  2559s]   seed=42 refit완료 (1341s)
+[  3702s]   seed=7 refit완료 (1143s)
+[  4987s]   seed=2024 refit완료 (1284s)
+[  6248s]   seed=123 refit완료 (1261s)
+[  7347s]   seed=777 refit완료 (1099s)
+[  7347s] === ordinal ===
+[  7684s]   stage1 ES_iter=500 (337s, n=1,474,300)
+[  7890s]   stage2 ES_iter=500 (206s, n=1,136,633)
+[  8034s]   stage3 ES_iter=364 (144s, n=966,336)
+[  8323s]   seed=42 stage1 refit (289s)
+[  8536s]   seed=42 stage2 refit (213s)
+[  8685s]   seed=42 stage3 refit (148s)
+[  8973s]   seed=7 stage1 refit (289s)
+[  9187s]   seed=7 stage2 refit (214s)
+[  9338s]   seed=7 stage3 refit (151s)
+[  9630s]   seed=2024 stage1 refit (291s)
+[  9839s]   seed=2024 stage2 refit (209s)
+[  9986s]   seed=2024 stage3 refit (148s)
+[ 10273s]   seed=123 stage1 refit (287s)
+[ 10486s]   seed=123 stage2 refit (213s)
+[ 10633s]   seed=123 stage3 refit (147s)
+[ 10921s]   seed=777 stage1 refit (288s)
+[ 11134s]   seed=777 stage2 refit (213s)
+[ 11280s]   seed=777 stage3 refit (146s)
+[ 11280s] === midother ===
+[ 12101s]   seed=42 best_iter=535 (820s)
+[ 12916s]   seed=7 best_iter=520 (815s)
+[ 13806s]   seed=2024 best_iter=585 (890s)
+[ 14553s]   seed=123 best_iter=453 (747s)
+[ 15134s]   seed=777 best_iter=353 (580s)
+[ 15134s] === condball ===
+[ 15858s]   seed=42 best_iter=674 (724s)
+[ 16472s]   seed=7 best_iter=544 (614s)
+[ 17129s]   seed=2024 best_iter=618 (657s)
+[ 17756s]   seed=123 best_iter=513 (627s)
+[ 18380s]   seed=777 best_iter=532 (624s)
+[ 18380s] === countresid ===
+[ 18862s]   seed=42 best_iter=422 (481s)
+[ 19198s]   seed=7 best_iter=279 (336s)
+[ 19558s]   seed=2024 best_iter=291 (360s)
+[ 19922s]   seed=123 best_iter=304 (364s)
+[ 20212s]   seed=777 best_iter=234 (291s)
+[ 20212s] === future50 ===
+[ 20833s]   seed=42 best_iter=382 (619s)
+[ 21344s]   seed=7 best_iter=297 (511s)
+[ 21915s]   seed=2024 best_iter=354 (571s)
+[ 22472s]   seed=123 best_iter=344 (557s)
+[ 23084s]   seed=777 best_iter=344 (612s)
+[ 23084s] level_shift -0.001270 -> -0.000300  (D_true=-0.00097 상쇄, 기대 +0.38점)
+[ 23096s] 저장: submit/model/model_artifacts_v111.pkl (140.5MB)
+[ 23096s] 시드 5개 x 6헤드 배깅 완료. 총 23096s

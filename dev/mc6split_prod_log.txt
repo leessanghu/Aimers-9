@@ -1,0 +1,5 @@
+﻿[    15s] R전문가 학습행 1,313,704
+[  1673s] R전문가 완료 best_iter=629
+[  1674s] F전문가 학습행 160,596
+[  1899s] F전문가 완료 best_iter=573
+[  1900s] 저장: dev/mc6split_production.pkl

@@ -1,0 +1,52 @@
+﻿[     14s] 피처: 컨텍스트 53 + 원시비율 18 = 71
+[     16s] 라벨 준비 완료
+[     16s] === N1: +원시비율18 ===
+[    101s] [N1/seed42] ep01 loss=0.84361 evalBrier=0.249877
+[    183s] [N1/seed42] ep02 loss=0.81542 evalBrier=0.249864
+[    269s] [N1/seed42] ep03 loss=0.81315 evalBrier=0.249512
+[    354s] [N1/seed42] ep04 loss=0.81199 evalBrier=0.249741
+[    430s] [N1/seed42] ep05 loss=0.81134 evalBrier=0.249150
+[    498s] [N1/seed42] ep06 loss=0.81066 evalBrier=0.249699
+[    567s] [N1/seed42] ep07 loss=0.80994 evalBrier=0.249646
+[    635s] [N1/seed42] ep08 loss=0.80928 evalBrier=0.249136
+[    700s] [N1/seed42] ep09 loss=0.80886 evalBrier=0.248941
+[    762s] [N1/seed42] ep10 loss=0.80820 evalBrier=0.249272
+[    825s] [N1/seed42] ep11 loss=0.80767 evalBrier=0.249534
+[    887s] [N1/seed42] ep12 loss=0.80715 evalBrier=0.249451
+[    952s] [N1/seed42] ep13 loss=0.80667 evalBrier=0.249468
+[    952s] [N1/seed42] 얼리스탑 (best ep9)
+[   1028s] [N1/seed7] ep01 loss=0.83830 evalBrier=0.249686
+[   1100s] [N1/seed7] ep02 loss=0.81508 evalBrier=0.249712
+[   1182s] [N1/seed7] ep03 loss=0.81300 evalBrier=0.249247
+[   1265s] [N1/seed7] ep04 loss=0.81179 evalBrier=0.249580
+[   1350s] [N1/seed7] ep05 loss=0.81107 evalBrier=0.249475
+[   1439s] [N1/seed7] ep06 loss=0.81055 evalBrier=0.249227
+[   1518s] [N1/seed7] ep07 loss=0.80970 evalBrier=0.248997
+[   1584s] [N1/seed7] ep08 loss=0.80927 evalBrier=0.248936
+[   1650s] [N1/seed7] ep09 loss=0.80841 evalBrier=0.249039
+[   1712s] [N1/seed7] ep10 loss=0.80791 evalBrier=0.249508
+[   1776s] [N1/seed7] ep11 loss=0.80723 evalBrier=0.249294
+[   1839s] [N1/seed7] ep12 loss=0.80683 evalBrier=0.249173
+[   1839s] [N1/seed7] 얼리스탑 (best ep8)
+[N1_raw18   ] 단독BSS=  418.72  원본rho=+0.00286  직교후rho=+0.00393  이득=+1.53  s*=+0.0622  z=  2.4  통과
+[   1843s] === N2: N1 + PLR 주기임베딩 ===
+[   1925s] [N2/seed42] ep01 loss=0.83336 evalBrier=0.249845
+[   2001s] [N2/seed42] ep02 loss=0.81298 evalBrier=0.249463
+[   2077s] [N2/seed42] ep03 loss=0.81081 evalBrier=0.249418
+[   2152s] [N2/seed42] ep04 loss=0.80888 evalBrier=0.249450
+[   2230s] [N2/seed42] ep05 loss=0.80724 evalBrier=0.249698
+[   2306s] [N2/seed42] ep06 loss=0.80505 evalBrier=0.250274
+[   2383s] [N2/seed42] ep07 loss=0.80338 evalBrier=0.250456
+[   2383s] [N2/seed42] 얼리스탑 (best ep3)
+[   2466s] [N2/seed7] ep01 loss=0.83092 evalBrier=0.251607
+[   2543s] [N2/seed7] ep02 loss=0.81311 evalBrier=0.249517
+[   2619s] [N2/seed7] ep03 loss=0.81055 evalBrier=0.249039
+[   2695s] [N2/seed7] ep04 loss=0.80883 evalBrier=0.249660
+[   2770s] [N2/seed7] ep05 loss=0.80722 evalBrier=0.250891
+[   2846s] [N2/seed7] ep06 loss=0.80512 evalBrier=0.249616
+[   2924s] [N2/seed7] ep07 loss=0.80310 evalBrier=0.250218
+[   2924s] [N2/seed7] 얼리스탑 (best ep3)
+[N2_plr     ] 단독BSS= -516.71  원본rho=-0.00505  직교후rho=-0.00129  이득=+0.17  s*=-0.0141  z= -0.2  허수
+
+결론: N1 z=2.4, N2 z=-0.2  (nn_raw까지 직교화한 뒤 남는 신호 기준)
+[   2929s] 전체 완료

@@ -1,0 +1,19 @@
+﻿[    16s] 상위피처 16개: ['same_hand', 'asof_pitcher_offspeed_rate_smooth', 'asof_pitcher_breaking_rate_smooth', 'strikes_before', 'x_count_pressure', 'asof_pitcher_fastball_rate_smooth', 'x_ability_x_pressure', 'hand_matchup', 'count_state', 'balls_before', 'inseason_reverse_smooth', 'outs_before', 'inseason_cmd_index', 'x_ability_x_count', 'season', 'platoon_diff']
+[    18s] 자동생성 파생피처 100개
+[    29s] === fold A ===
+[   949s] [A/162만(기준)] BSS=844.7  best_iter=543  피처수=162  (917s)
+[  1943s] [A/162+100(자동파생)] BSS=860.4  best_iter=535  피처수=262  (994s)
+
+=== fold A 요약 ===
+  162만    BSS=844.7
+  162+100  BSS=860.4
+  차이 = +15.6점 (양수면 파생피처 100개 추가가 도움)
+[  1943s] === fold C ===
+[  2166s] [C/162만(기준)] BSS=2249.2  best_iter=158  피처수=162  (190s)
+[  2475s] [C/162+100(자동파생)] BSS=2197.1  best_iter=214  피처수=262  (310s)
+
+=== fold C 요약 ===
+  162만    BSS=2249.2
+  162+100  BSS=2197.1
+  차이 = -52.1점 (양수면 파생피처 100개 추가가 도움)
+[  2476s] 완료

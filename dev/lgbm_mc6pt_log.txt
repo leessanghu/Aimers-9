@@ -1,0 +1,17 @@
+﻿[    65s] 클래스 분포(mc6pt): 0:15.0%  1:19.5%  2:13.2%  3:29.5%  4:14.5%  5:8.4%  미분류:0.05%
+python : C:\Users\이상후\AppData\Local\Programs\Python\Python314\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecati
+onWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+At line:1 char:345
++ ... 면\Aimers 9"; python dev/build_lgbm_mc6pt.py *> dev/lgbm_mc6pt_log.txt
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\이상후\Ap...val_y' instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[  1780s] 학습완료 best_iter=199 (1712s)
+단독 BSS = 583.11   (참고: mc6 CatBoost = 842.11)
+원본:    rho=-0.00098  이득=+0.10  s*=-0.0173
+직교화후: rho=-0.00020  이득=+0.00  s*=-0.0036
+대조군: 평균=-0.00028 SD=0.00223
+z = -1.3  ->  허수
+[  1781s] 완료

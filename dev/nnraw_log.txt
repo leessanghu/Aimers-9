@@ -1,0 +1,36 @@
+﻿[     21s] 데이터/라벨 준비 완료
+[    117s] [foldA/seed42] ep01 loss=0.84408 evalBrier=0.252884
+[    216s] [foldA/seed42] ep02 loss=0.81798 evalBrier=0.252152
+[    313s] [foldA/seed42] ep03 loss=0.81577 evalBrier=0.251713
+[    422s] [foldA/seed42] ep04 loss=0.81470 evalBrier=0.251878
+[    518s] [foldA/seed42] ep05 loss=0.81393 evalBrier=0.251140
+[    615s] [foldA/seed42] ep06 loss=0.81306 evalBrier=0.251303
+[    708s] [foldA/seed42] ep07 loss=0.81218 evalBrier=0.251538
+[    802s] [foldA/seed42] ep08 loss=0.81143 evalBrier=0.250771
+[    895s] [foldA/seed42] ep09 loss=0.81085 evalBrier=0.250438
+[    989s] [foldA/seed42] ep10 loss=0.81014 evalBrier=0.250575
+[   1083s] [foldA/seed42] ep11 loss=0.80955 evalBrier=0.250594
+[   1179s] [foldA/seed42] ep12 loss=0.80897 evalBrier=0.250689
+[   1273s] [foldA/seed42] ep13 loss=0.80843 evalBrier=0.250714
+[   1273s] [foldA/seed42] 얼리스탑 (best ep9, brier=0.250438)
+[   1375s] [foldA/seed7] ep01 loss=0.84475 evalBrier=0.252872
+[   1469s] [foldA/seed7] ep02 loss=0.81804 evalBrier=0.251979
+[   1564s] [foldA/seed7] ep03 loss=0.81581 evalBrier=0.251741
+[   1658s] [foldA/seed7] ep04 loss=0.81458 evalBrier=0.251304
+[   1748s] [foldA/seed7] ep05 loss=0.81360 evalBrier=0.251132
+[   1840s] [foldA/seed7] ep06 loss=0.81304 evalBrier=0.250803
+[   1936s] [foldA/seed7] ep07 loss=0.81209 evalBrier=0.250573
+[   2027s] [foldA/seed7] ep08 loss=0.81168 evalBrier=0.250518
+[   2121s] [foldA/seed7] ep09 loss=0.81077 evalBrier=0.250148
+[   2195s] [foldA/seed7] ep10 loss=0.81030 evalBrier=0.250871
+[   2260s] [foldA/seed7] ep11 loss=0.80960 evalBrier=0.250741
+[   2328s] [foldA/seed7] ep12 loss=0.80908 evalBrier=0.250312
+[   2396s] [foldA/seed7] ep13 loss=0.80868 evalBrier=0.250396
+[   2396s] [foldA/seed7] 얼리스탑 (best ep9, brier=0.250148)
+[   2399s] fold A 저장 (건강시드 2개)
+
+NNraw 단독 BSS = 27.40   예측상관(vs blend)=0.4717
+원본:    rho=+0.00179  V=2.286e-03  s*=+0.0187
+직교화후: rho=+0.00672  이득=+4.47  s*=+0.0876
+대조군 z = 3.7  ->  통과
+[   2400s] 완료

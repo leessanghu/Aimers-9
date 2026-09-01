@@ -1,0 +1,41 @@
+﻿[     11s] 데이터/라벨 준비 완료
+python : C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\build_nn_v2.py:168: UserWarning: Converting a tensor with requires_gr
+ad=True to a scalar may lead to unexpected behavior.
+At line:1 char:345
++ ... eDrive\바탕 화면\Aimers 9"; python dev/build_nn_v2.py *> dev/nnv2_log.txt
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\이상후\On...ected behavior.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\cs
+rc\autograd\generated\python_variable_methods.cpp:837.)
+  ep_loss += float(loss); nb += 1; step += 1
+[     86s] [foldA/seed42] ep01 loss=0.83614 evalBrier=0.248882
+[    162s] [foldA/seed42] ep02 loss=0.81373 evalBrier=0.249053
+[    240s] [foldA/seed42] ep03 loss=0.81153 evalBrier=0.248714
+[    315s] [foldA/seed42] ep04 loss=0.81040 evalBrier=0.249087
+[    390s] [foldA/seed42] ep05 loss=0.80974 evalBrier=0.248510
+[    466s] [foldA/seed42] ep06 loss=0.80905 evalBrier=0.248990
+[    539s] [foldA/seed42] ep07 loss=0.80838 evalBrier=0.248995
+[    615s] [foldA/seed42] ep08 loss=0.80770 evalBrier=0.248889
+[    688s] [foldA/seed42] ep09 loss=0.80721 evalBrier=0.248582
+[    688s] [foldA/seed42] 얼리스탑 (best ep5, brier=0.248510)
+[    770s] [foldA/seed7] ep01 loss=0.84041 evalBrier=0.248981
+[    843s] [foldA/seed7] ep02 loss=0.81368 evalBrier=0.248918
+[    916s] [foldA/seed7] ep03 loss=0.81160 evalBrier=0.249159
+[    992s] [foldA/seed7] ep04 loss=0.81037 evalBrier=0.248709
+[   1066s] [foldA/seed7] ep05 loss=0.80970 evalBrier=0.248866
+[   1139s] [foldA/seed7] ep06 loss=0.80905 evalBrier=0.248701
+[   1212s] [foldA/seed7] ep07 loss=0.80836 evalBrier=0.248592
+[   1289s] [foldA/seed7] ep08 loss=0.80800 evalBrier=0.248650
+[   1366s] [foldA/seed7] ep09 loss=0.80713 evalBrier=0.248715
+[   1441s] [foldA/seed7] ep10 loss=0.80662 evalBrier=0.249132
+[   1517s] [foldA/seed7] ep11 loss=0.80600 evalBrier=0.249060
+[   1517s] [foldA/seed7] 얼리스탑 (best ep7, brier=0.248592)
+[   1521s] fold A 예측 저장 (건강시드 2개 평균)
+
+NN단독 BSS = 358.80   예측상관(vs blend)=0.8520
+원본:    rho=-0.00465  V=7.819e-04  s*=-0.0828
+직교화후: rho=-0.00239  이득=+0.57  s*=-0.0439
+대조군 z = 0.6  ->  허수
+[   1522s] 스크리닝 미통과 - 프로덕션 생략, 종료

@@ -1,0 +1,20 @@
+﻿[     11s] 데이터 준비 완료
+[     90s] [prod/seed42] ep01 loss=0.73338 evalBrier=0.249452
+[    167s] [prod/seed42] ep02 loss=0.71181 evalBrier=0.248800
+[    244s] [prod/seed42] ep03 loss=0.70982 evalBrier=0.248646
+[    318s] [prod/seed42] ep04 loss=0.70904 evalBrier=0.248443
+[    394s] [prod/seed42] ep05 loss=0.70835 evalBrier=0.248454
+[    470s] [prod/seed42] ep06 loss=0.70779 evalBrier=0.248525
+[    545s] [prod/seed42] ep07 loss=0.70724 evalBrier=0.248515
+[    620s] [prod/seed42] ep08 loss=0.70685 evalBrier=0.248675
+[    620s] [prod/seed42] 얼리스탑 (best ep4)
+[    698s] [prod/seed7] ep01 loss=0.73652 evalBrier=0.250037
+[    773s] [prod/seed7] ep02 loss=0.71186 evalBrier=0.248525
+[    848s] [prod/seed7] ep03 loss=0.70995 evalBrier=0.248544
+[    923s] [prod/seed7] ep04 loss=0.70912 evalBrier=0.248280
+[    998s] [prod/seed7] ep05 loss=0.70829 evalBrier=0.248354
+[   1074s] [prod/seed7] ep06 loss=0.70774 evalBrier=0.248358
+[   1148s] [prod/seed7] ep07 loss=0.70720 evalBrier=0.248544
+[   1222s] [prod/seed7] ep08 loss=0.70678 evalBrier=0.248704
+[   1222s] [prod/seed7] 얼리스탑 (best ep4)
+[   1223s] 저장 완료 (2시드): dev/n1_production.pkl

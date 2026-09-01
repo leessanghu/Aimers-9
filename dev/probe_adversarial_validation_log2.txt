@@ -1,0 +1,23 @@
+﻿2022 행=247,472   2024 행=253,507
+3-fold CV AUC (2019 vs 2024 구분) = 0.8855 ± 0.1583
+
+=== 상위 15개 드리프트 피처 (season 제외, permutation importance) ===
+  batter_team_id_te                      +0.21360
+  game_month                             +0.00279
+  batter_team_id_count                   +0.00175
+  vol_n_seasons                          +0.00007
+  pitcher_team_id_te                     +0.00006
+  cat_game_type                          +0.00004
+  pt_dev                                 +0.00000
+  bat_inseason_smooth                    +0.00000
+  bat_inseason_middle                    +0.00000
+  tm_n_x_lown                            +0.00000
+  asof_pitcher_strike_rate_smooth        +0.00000
+  ly_ball                                +0.00000
+  x_ability_x_count                      +0.00000
+  ly_n                                   +0.00000
+  ly_middle                              +0.00000
+
+[해석] AUC~0.5 -> 연도간 분포차 없음(드리프트 없음, season 제외하면).
+ AUC 높으면 상위피처가 진짜 드리프트축 -> 그 피처의 고drift 영역에서 신뢰도 낮춰볼 가치.
+ season 자체는 피처에서 제외하지 않았으므로 top이 season/game_month류면 당연한 것.

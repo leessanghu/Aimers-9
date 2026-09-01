@@ -1,0 +1,17 @@
+﻿[    21s] L2 로지스틱 학습...
+python : C:\Users\이상후\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\linear_model\_logistic.py:1184:
+ FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=-1', please leave it
+ unspecified.
+At line:1 char:345
++ ... 화면\Aimers 9"; python dev/screen_linear_et.py *> dev/linear_et_log.txt
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\이상후\Ap...it unspecified.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(msg, category=FutureWarning)
+[    36s] 완료
+[linear  ] 단독BSS=  531.23  원본rho=-0.00451  직교후rho=-0.00338  이득=+1.13  s*=-0.0751  z=  0.8  허수
+[    37s] ExtraTrees 학습...
+[  1791s] 완료
+[extratree] 단독BSS=  762.49  원본rho=+0.00100  직교후rho=+0.00307  이득=+0.93  s*=+0.1127  z=  1.8  허수
+[  1793s] 전체 완료

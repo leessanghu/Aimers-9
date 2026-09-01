@@ -1,0 +1,19 @@
+﻿[    24s] lt_y 학습...
+python : C:\Users\이상후\AppData\Local\Programs\Python\Python314\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecati
+onWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+At line:1 char:409
++ ... pt_log.txt; python dev/build_lgbm_lineartree.py *> dev/overnight2_lin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\이상후\Ap...val_y' instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[   100s] lt_y 완료 best_iter=83
+[lt_y  ] 단독BSS=  654.23  rho=-0.00516  직교후rho=-0.00636  이득= +4.01  s*=-0.1525  z=  4.1  통과
+[   101s] lt_mc6 학습...
+C:\Users\이상후\AppData\Local\Programs\Python\Python314\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning
+: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[   309s] lt_mc6 완료 best_iter=29
+[lt_mc6] 단독BSS=  614.64  rho=-0.00152  직교후rho=+0.00008  이득= +0.00  s*=+0.0023  z= -1.3  허수
+[   310s] 전체 완료

@@ -1,0 +1,42 @@
+﻿모델 파일 확인: C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\submit\model\model_artifacts_v111.pkl (140.5MB)
+임시로 빼둔 파일 개수: 103 (다른 pkl + codex 잔재)
+model/ 남은 파일: ['advanced_features.py.bak', 'downside_features.py.bak', 'model_artifacts_dangerball.pkl.bak', 'model_artifacts_v101.pkl.bak', 'model_artifacts_v102.pkl.bak', 'model_artifacts_v103.pkl.bak', 'model_artifacts_v104.pkl.bak', 'model_artifacts_v106.pkl.bak', 'model_artifacts_v107.pkl.bak', 'model_artifacts_v108.pkl.bak', 'model_artifacts_v109.pkl.bak', 'model_artifacts_v110.pkl.bak', 'model_artifacts_v111.pkl', 'model_artifacts_v15.pkl.bak', 'model_artifacts_v16.pkl.bak', 'model_artifacts_v18.pkl.bak', 'model_artifacts_v19.pkl.bak', 'model_artifacts_v20.pkl.bak', 'model_artifacts_v21.pkl.bak', 'model_artifacts_v22.pkl.bak', 'model_artifacts_v23.pkl.bak', 'model_artifacts_v25.pkl.bak', 'model_artifacts_v26.pkl.bak', 'model_artifacts_v27.pkl.bak', 'model_artifacts_v28.pkl.bak', 'model_artifacts_v29.pkl.bak', 'model_artifacts_v30.pkl.bak', 'model_artifacts_v31.pkl.bak', 'model_artifacts_v32.pkl.bak', 'model_artifacts_v33.pkl.bak', 'model_artifacts_v35.pkl.bak', 'model_artifacts_v36.pkl.bak', 'model_artifacts_v38.pkl.bak', 'model_artifacts_v39.pkl.bak', 'model_artifacts_v40.pkl.bak', 'model_artifacts_v41.pkl.bak', 'model_artifacts_v42.pkl.bak', 'model_artifacts_v43b.pkl.bak', 'model_artifacts_v44.pkl.bak', 'model_artifacts_v45.pkl.bak', 'model_artifacts_v46.pkl.bak', 'model_artifacts_v47.pkl.bak', 'model_artifacts_v48.pkl.bak', 'model_artifacts_v49.pkl.bak', 'model_artifacts_v50.pkl.bak', 'model_artifacts_v51.pkl.bak', 'model_artifacts_v52.pkl.bak', 'model_artifacts_v53.pkl.bak', 'model_artifacts_v54.pkl.bak', 'model_artifacts_v55.pkl.bak', 'model_artifacts_v56.pkl.bak', 'model_artifacts_v57.pkl.bak', 'model_artifacts_v58.pkl.bak', 'model_artifacts_v59.pkl.bak', 'model_artifacts_v60.pkl.bak', 'model_artifacts_v60a.pkl.bak', 'model_artifacts_v60b.pkl.bak', 'model_artifacts_v61.pkl.bak', 'model_artifacts_v62.pkl.bak', 'model_artifacts_v63.pkl.bak', 'model_artifacts_v64.pkl.bak', 'model_artifacts_v64s7.pkl.bak', 'model_artifacts_v65.pkl.bak', 'model_artifacts_v66.pkl.bak', 'model_artifacts_v67.pkl.bak', 'model_artifacts_v68.pkl.bak', 'model_artifacts_v69.pkl.bak', 'model_artifacts_v72.pkl.bak', 'model_artifacts_v73.pkl.bak', 'model_artifacts_v74.pkl.bak', 'model_artifacts_v75.pkl.bak', 'model_artifacts_v76.pkl.bak', 'model_artifacts_v77.pkl.bak', 'model_artifacts_v78.pkl.bak', 'model_artifacts_v79.pkl.bak', 'model_artifacts_v80.pkl.bak', 'model_artifacts_v81.pkl.bak', 'model_artifacts_v82.pkl.bak', 'model_artifacts_v83.pkl.bak', 'model_artifacts_v84.pkl.bak', 'model_artifacts_v85.pkl.bak', 'model_artifacts_v86.pkl.bak', 'model_artifacts_v87.pkl.bak', 'model_artifacts_v88.pkl.bak', 'model_artifacts_v89.pkl.bak', 'model_artifacts_v90.pkl.bak', 'model_artifacts_v90lown.pkl.bak', 'model_artifacts_v90month37.pkl.bak', 'model_artifacts_v90rookie.pkl.bak', 'model_artifacts_v91.pkl.bak', 'model_artifacts_v91lown.pkl.bak', 'model_artifacts_v91month37.pkl.bak', 'model_artifacts_v91rookie.pkl.bak', 'model_artifacts_v92.pkl.bak', 'model_artifacts_v93.pkl.bak', 'model_artifacts_v95.pkl.bak', 'model_artifacts_v96.pkl.bak', 'model_artifacts_v99.pkl.bak', 'orthogonal_features.py.bak', 'persona_features.py.bak', 'phase_v12_submission.pkl.bak', 'raw_id_features.py.bak', 'v20_905_submission.pkl.bak', 'v7_features.py.bak']
+복원 시도 완료
+python : Traceback (most recent call last):
+At line:1 char:302
++ ... = 'PlainText' } catch {} } }; python dev/package_v111.py *>&1 | Tee-O ...
++                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\이상후\OneDrive\바탕 화면\Aimers 9\dev\package_v111.py", line 36, in <module>
+    assert remaining == ["model_artifacts_v111.pkl"], f"격리 실패: {remaining}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 격리 실패: ['advanced_features.py.bak', 'downside_features.py.bak', 'model_artifacts_dangerball.pkl.bak', '
+model_artifacts_v101.pkl.bak', 'model_artifacts_v102.pkl.bak', 'model_artifacts_v103.pkl.bak', 'model_artifacts_v104.pk
+l.bak', 'model_artifacts_v106.pkl.bak', 'model_artifacts_v107.pkl.bak', 'model_artifacts_v108.pkl.bak', 'model_artifact
+s_v109.pkl.bak', 'model_artifacts_v110.pkl.bak', 'model_artifacts_v111.pkl', 'model_artifacts_v15.pkl.bak', 'model_arti
+facts_v16.pkl.bak', 'model_artifacts_v18.pkl.bak', 'model_artifacts_v19.pkl.bak', 'model_artifacts_v20.pkl.bak', 'model
+_artifacts_v21.pkl.bak', 'model_artifacts_v22.pkl.bak', 'model_artifacts_v23.pkl.bak', 'model_artifacts_v25.pkl.bak', '
+model_artifacts_v26.pkl.bak', 'model_artifacts_v27.pkl.bak', 'model_artifacts_v28.pkl.bak', 'model_artifacts_v29.pkl.ba
+k', 'model_artifacts_v30.pkl.bak', 'model_artifacts_v31.pkl.bak', 'model_artifacts_v32.pkl.bak', 'model_artifacts_v33.p
+kl.bak', 'model_artifacts_v35.pkl.bak', 'model_artifacts_v36.pkl.bak', 'model_artifacts_v38.pkl.bak', 'model_artifacts_
+v39.pkl.bak', 'model_artifacts_v40.pkl.bak', 'model_artifacts_v41.pkl.bak', 'model_artifacts_v42.pkl.bak', 'model_artif
+acts_v43b.pkl.bak', 'model_artifacts_v44.pkl.bak', 'model_artifacts_v45.pkl.bak', 'model_artifacts_v46.pkl.bak', 'model
+_artifacts_v47.pkl.bak', 'model_artifacts_v48.pkl.bak', 'model_artifacts_v49.pkl.bak', 'model_artifacts_v50.pkl.bak', '
+model_artifacts_v51.pkl.bak', 'model_artifacts_v52.pkl.bak', 'model_artifacts_v53.pkl.bak', 'model_artifacts_v54.pkl.ba
+k', 'model_artifacts_v55.pkl.bak', 'model_artifacts_v56.pkl.bak', 'model_artifacts_v57.pkl.bak', 'model_artifacts_v58.p
+kl.bak', 'model_artifacts_v59.pkl.bak', 'model_artifacts_v60.pkl.bak', 'model_artifacts_v60a.pkl.bak', 'model_artifacts
+_v60b.pkl.bak', 'model_artifacts_v61.pkl.bak', 'model_artifacts_v62.pkl.bak', 'model_artifacts_v63.pkl.bak', 'model_art
+ifacts_v64.pkl.bak', 'model_artifacts_v64s7.pkl.bak', 'model_artifacts_v65.pkl.bak', 'model_artifacts_v66.pkl.bak', 'mo
+del_artifacts_v67.pkl.bak', 'model_artifacts_v68.pkl.bak', 'model_artifacts_v69.pkl.bak', 'model_artifacts_v72.pkl.bak'
+, 'model_artifacts_v73.pkl.bak', 'model_artifacts_v74.pkl.bak', 'model_artifacts_v75.pkl.bak', 'model_artifacts_v76.pkl
+.bak', 'model_artifacts_v77.pkl.bak', 'model_artifacts_v78.pkl.bak', 'model_artifacts_v79.pkl.bak', 'model_artifacts_v8
+0.pkl.bak', 'model_artifacts_v81.pkl.bak', 'model_artifacts_v82.pkl.bak', 'model_artifacts_v83.pkl.bak', 'model_artifac
+ts_v84.pkl.bak', 'model_artifacts_v85.pkl.bak', 'model_artifacts_v86.pkl.bak', 'model_artifacts_v87.pkl.bak', 'model_ar
+tifacts_v88.pkl.bak', 'model_artifacts_v89.pkl.bak', 'model_artifacts_v90.pkl.bak', 'model_artifacts_v90lown.pkl.bak', 
+'model_artifacts_v90month37.pkl.bak', 'model_artifacts_v90rookie.pkl.bak', 'model_artifacts_v91.pkl.bak', 'model_artifa
+cts_v91lown.pkl.bak', 'model_artifacts_v91month37.pkl.bak', 'model_artifacts_v91rookie.pkl.bak', 'model_artifacts_v92.p
+kl.bak', 'model_artifacts_v93.pkl.bak', 'model_artifacts_v95.pkl.bak', 'model_artifacts_v96.pkl.bak', 'model_artifacts_
+v99.pkl.bak', 'orthogonal_features.py.bak', 'persona_features.py.bak', 'phase_v12_submission.pkl.bak', 'raw_id_features
+.py.bak', 'v20_905_submission.pkl.bak', 'v7_features.py.bak']

@@ -1,0 +1,27 @@
+﻿
+=== fold A ===
+  기존 고정블렌드: 전체BSS=923.82  H1구간=1002.47  H2구간=821.15
+    ridge_lambda=0.0001   H1->H2= +15.08  H2->H1= +29.03  평균= +22.05
+    ridge_lambda=0.001    H1->H2= +16.51  H2->H1=  +4.11  평균= +10.31
+    ridge_lambda=0.01     H1->H2= -53.50  H2->H1=-202.54  평균=-128.02
+    ridge_lambda=0.05     H1->H2=-391.33  H2->H1=-660.52  평균=-525.92
+    ridge_lambda=0.1      H1->H2=-543.05  H2->H1=-829.94  평균=-686.49
+    ridge_lambda=0.3      H1->H2=-690.80  H2->H1=-984.76  평균=-837.78
+  [best] lambda=0.0001  평균이득=+22.05
+  학습된 상대가중치(절대값정규화): base=+0.157  hurdle=+0.270  multires=+0.099  ordinal=+0.181  midother=+0.214  condball=+0.002  countresid=+0.034  future50=-0.042
+  기존 수동가중치(정규화): base=+0.182  hurdle=+0.243  multires=+0.061  ordinal=+0.122  midother=+0.152  condball=+0.080  countresid=+0.080  future50=+0.080
+
+=== fold C ===
+  기존 고정블렌드: 전체BSS=2584.75  H1구간=3039.52  H2구간=2111.41
+    ridge_lambda=0.0001   H1->H2=-160.91  H2->H1= +30.55  평균= -65.18
+    ridge_lambda=0.001    H1->H2=-143.96  H2->H1= +16.12  평균= -63.92
+    ridge_lambda=0.01     H1->H2=-206.83  H2->H1=-242.50  평균=-224.67
+    ridge_lambda=0.05     H1->H2=-891.82  H2->H1=-1176.25  평균=-1034.03
+    ridge_lambda=0.1      H1->H2=-1349.11  H2->H1=-1691.21  평균=-1520.16
+    ridge_lambda=0.3      H1->H2=-1895.99  H2->H1=-2268.98  평균=-2082.48
+  [best] lambda=0.001  평균이득=-63.92
+  학습된 상대가중치(절대값정규화): base=+0.195  hurdle=+0.181  multires=+0.094  ordinal=+0.178  midother=+0.061  condball=+0.096  countresid=+0.096  future50=+0.100
+  기존 수동가중치(정규화): base=+0.182  hurdle=+0.243  multires=+0.061  ordinal=+0.122  midother=+0.152  condball=+0.080  countresid=+0.080  future50=+0.080
+
+=== 재현성: fold A vs fold C 학습가중치벡터 상관 ===
+  corr = +0.478  (높으면 진짜 구조, 낮으면 fold마다 다른 노이즈)

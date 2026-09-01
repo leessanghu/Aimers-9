@@ -1,0 +1,6 @@
+# Research only. These may use pretrained/foundation-model checkpoints.
+# Do not include in final submission without organizer confirmation.
+
+tabpfn
+tabicl
+

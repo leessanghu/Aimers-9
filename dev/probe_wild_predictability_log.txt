@@ -1,0 +1,19 @@
+﻿
+=== fold A (train<=2023 -> 2024) ===
+[    23s] [A] is_wild (nd 중 wild vs success) 진단...
+  is_wild (2-class)    n_tr=  812,188  n_va= 154,148  base_rate=0.2019  AUC=0.5898
+[   150s] [A] 성공-존밖(ball) vs 성공-나머지(strike+play) 진단...
+  succ_ball vs 나머지     n_tr=  649,114  n_va= 123,026  base_rate=0.3141  AUC=0.5763
+[   248s] [A] 성공-존안(strike) vs 성공-인플레이(play) 진단 (ball 제외)...
+  strike vs play       n_tr=  456,604  n_va=  84,379  base_rate=0.7160  AUC=0.6266
+
+=== fold C (train<=2021 -> 2022) ===
+[   305s] [C] is_wild (nd 중 wild vs success) 진단...
+  is_wild (2-class)    n_tr=  496,933  n_va= 161,859  base_rate=0.1917  AUC=0.5980
+[   351s] [C] 성공-존밖(ball) vs 성공-나머지(strike+play) 진단...
+  succ_ball vs 나머지     n_tr=  395,585  n_va= 130,835  base_rate=0.3044  AUC=0.5794
+[   378s] [C] 성공-존안(strike) vs 성공-인플레이(play) 진단 (ball 제외)...
+  strike vs play       n_tr=  280,749  n_va=  91,003  base_rate=0.7140  AUC=0.6227
+[   413s] 
+완료. AUC가 0.55 이하면 그 서브타겟은 학습불가(노이즈) -> mc6에서 빼야 함.
+[   413s] AUC가 0.60+면 그 서브타겟만 분리해서 별도 헤드로 재검증할 가치 있음.

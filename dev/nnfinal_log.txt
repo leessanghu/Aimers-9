@@ -1,0 +1,48 @@
+﻿[     12s] 피처: ctx 53 + raw 18 + tm 32 = 103
+[     14s] streak 라벨 유효 99.9%
+[     84s] [foldA/seed42] ep01 loss=0.85840 evalBrier=0.249783
+[    158s] [foldA/seed42] ep02 loss=0.81983 evalBrier=0.249984
+[    226s] [foldA/seed42] ep03 loss=0.81705 evalBrier=0.249663
+[    300s] [foldA/seed42] ep04 loss=0.81574 evalBrier=0.249962
+[    369s] [foldA/seed42] ep05 loss=0.81495 evalBrier=0.249313
+[    440s] [foldA/seed42] ep06 loss=0.81421 evalBrier=0.249818
+[    518s] [foldA/seed42] ep07 loss=0.81352 evalBrier=0.249608
+[    595s] [foldA/seed42] ep08 loss=0.81281 evalBrier=0.249532
+[    662s] [foldA/seed42] ep09 loss=0.81237 evalBrier=0.248851
+[    728s] [foldA/seed42] ep10 loss=0.81184 evalBrier=0.249206
+[    795s] [foldA/seed42] ep11 loss=0.81127 evalBrier=0.249396
+[    859s] [foldA/seed42] ep12 loss=0.81062 evalBrier=0.249524
+[    927s] [foldA/seed42] ep13 loss=0.81031 evalBrier=0.249569
+[    927s] [foldA/seed42] 얼리스탑 (best ep9)
+[    998s] [foldA/seed7] ep01 loss=0.86308 evalBrier=0.250855
+[   1066s] [foldA/seed7] ep02 loss=0.81976 evalBrier=0.249880
+[   1133s] [foldA/seed7] ep03 loss=0.81715 evalBrier=0.250159
+[   1198s] [foldA/seed7] ep04 loss=0.81575 evalBrier=0.249601
+[   1263s] [foldA/seed7] ep05 loss=0.81481 evalBrier=0.249480
+[   1327s] [foldA/seed7] ep06 loss=0.81419 evalBrier=0.249351
+[   1393s] [foldA/seed7] ep07 loss=0.81335 evalBrier=0.249245
+[   1457s] [foldA/seed7] ep08 loss=0.81290 evalBrier=0.249268
+[   1523s] [foldA/seed7] ep09 loss=0.81224 evalBrier=0.249362
+[   1587s] [foldA/seed7] ep10 loss=0.81172 evalBrier=0.249412
+[   1652s] [foldA/seed7] ep11 loss=0.81112 evalBrier=0.249335
+[   1652s] [foldA/seed7] 얼리스탑 (best ep7)
+[   1725s] [foldA/seed2024] ep01 loss=0.86722 evalBrier=0.249951
+[   1790s] [foldA/seed2024] ep02 loss=0.82027 evalBrier=0.249763
+[   1853s] [foldA/seed2024] ep03 loss=0.81737 evalBrier=0.249620
+[   1918s] [foldA/seed2024] ep04 loss=0.81603 evalBrier=0.249569
+[   1982s] [foldA/seed2024] ep05 loss=0.81544 evalBrier=0.249590
+[   2047s] [foldA/seed2024] ep06 loss=0.81425 evalBrier=0.249561
+[   2112s] [foldA/seed2024] ep07 loss=0.81356 evalBrier=0.249175
+[   2176s] [foldA/seed2024] ep08 loss=0.81296 evalBrier=0.249005
+[   2242s] [foldA/seed2024] ep09 loss=0.81265 evalBrier=0.249166
+[   2362s] [foldA/seed2024] ep10 loss=0.81198 evalBrier=0.249385
+[   2553s] [foldA/seed2024] ep11 loss=0.81151 evalBrier=0.249306
+[   2744s] [foldA/seed2024] ep12 loss=0.81104 evalBrier=0.249261
+[   2744s] [foldA/seed2024] 얼리스탑 (best ep8)
+[   2752s] fold A 저장 (건강 3시드)
+
+NF 단독 BSS = 415.36  예측상관(vs blend)=0.7417
+원본:    rho=+0.00126  s*=+0.0182
+직교화후(8축): rho=+0.00235  이득=+0.55  s*=+0.0463
+대조군 z = 0.6  ->  허수
+[   2755s] 스크리닝 미통과 - 프로덕션 생략

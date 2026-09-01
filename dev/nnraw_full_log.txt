@@ -1,0 +1,23 @@
+﻿[      7s] 데이터 준비 완료
+[     94s] [prod/seed42] ep01 loss=0.73435 evalBrier=0.251500
+[    197s] [prod/seed42] ep02 loss=0.71420 evalBrier=0.249954
+[    278s] [prod/seed42] ep03 loss=0.71214 evalBrier=0.249492
+[    354s] [prod/seed42] ep04 loss=0.71121 evalBrier=0.248923
+[    429s] [prod/seed42] ep05 loss=0.71023 evalBrier=0.248877
+[    504s] [prod/seed42] ep06 loss=0.70961 evalBrier=0.248870
+[    579s] [prod/seed42] ep07 loss=0.70878 evalBrier=0.249066
+[    653s] [prod/seed42] ep08 loss=0.70824 evalBrier=0.249575
+[    729s] [prod/seed42] ep09 loss=0.70778 evalBrier=0.249226
+[    804s] [prod/seed42] ep10 loss=0.70708 evalBrier=0.249690
+[    804s] [prod/seed42] 얼리스탑 (best ep6, brier=0.248870)
+[    881s] [prod/seed7] ep01 loss=0.73162 evalBrier=0.249929
+[    954s] [prod/seed7] ep02 loss=0.71396 evalBrier=0.249701
+[   1027s] [prod/seed7] ep03 loss=0.71211 evalBrier=0.249691
+[   1101s] [prod/seed7] ep04 loss=0.71112 evalBrier=0.248868
+[   1175s] [prod/seed7] ep05 loss=0.71008 evalBrier=0.248737
+[   1249s] [prod/seed7] ep06 loss=0.70949 evalBrier=0.248954
+[   1322s] [prod/seed7] ep07 loss=0.70869 evalBrier=0.248954
+[   1398s] [prod/seed7] ep08 loss=0.70810 evalBrier=0.249157
+[   1472s] [prod/seed7] ep09 loss=0.70773 evalBrier=0.249197
+[   1472s] [prod/seed7] 얼리스탑 (best ep5, brier=0.248737)
+[   1472s] 저장 완료 (2시드): dev/nnraw_production.pkl

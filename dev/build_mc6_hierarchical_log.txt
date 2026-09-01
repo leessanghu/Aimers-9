@@ -1,0 +1,25 @@
+﻿  headA_wild: 유효 966,336 (65.5%)
+  headB_ball: 유효 772,140 (52.3%)
+  headC_strike: 유효 540,983 (36.7%)
+[    17s] === fold A ===
+[   747s] [A/headA_wild] 학습완료 best_iter=715 (729s)
+  headA_wild     단독BSS=   852.7  rho=-0.00404 (필요치의  23.2%)  최대이득= +1.62
+[  1394s] [A/headB_ball] 학습완료 best_iter=716 (645s)
+  headB_ball     단독BSS=   844.8  rho=-0.00350 (필요치의  20.1%)  최대이득= +1.21
+[  2893s] [A/headC_strike] 학습완료 best_iter=661 (1467s)
+  headC_strike   단독BSS=   849.2  rho=-0.00482 (필요치의  27.7%)  최대이득= +2.30
+  3개 평균          단독BSS=   862.9  rho=-0.00491 (필요치의  28.2%)  최대이득= +2.39
+[  2893s] === fold C ===
+[  3214s] [C/headA_wild] 학습완료 best_iter=170 (313s)
+  headA_wild     단독BSS=  2113.0  rho=-0.02508 (필요치의 144.2%)  최대이득=+61.29
+[  3645s] [C/headB_ball] 학습완료 best_iter=275 (425s)
+  headB_ball     단독BSS=  2164.0  rho=-0.02452 (필요치의 140.9%)  최대이득=+58.57
+[  4050s] [C/headC_strike] 학습완료 best_iter=245 (403s)
+  headC_strike   단독BSS=  2295.9  rho=-0.02129 (필요치의 122.3%)  최대이득=+44.14
+  3개 평균          단독BSS=  2202.1  rho=-0.02444 (필요치의 140.5%)  최대이득=+58.20
+[  4050s] 클린검증(H1/H2 + 대조군, headA 기준)...
+
+=== 클린 max-gain (fold A, 3헤드평균 vs 기존8헤드 블렌드) ===
+  대조군          H1->H2=  +1.33  H2->H1=  +2.06  평균=  +1.69
+  mc6_hier(평균)  H1->H2=  +5.38  H2->H1=  -0.39  평균=  +2.50
+[  4053s] 완료

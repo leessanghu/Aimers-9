@@ -1,0 +1,18 @@
+OK
+[    0s] 데이터 로드 + 피처 재구성 (v28 162개)...
+[  104s] 피처 162개
+[  105s] 복원 1,474,300행  core_fail=0.3445  call분포 ball=0.369 strike=0.443 inplay=0.187
+[  105s] [1] Hurdle 3변종 학습...
+[  362s]     core_d6 완료 iters=500 (257s)
+[  513s]     snc_d6 완료 iters=445 (151s)
+[  513s]   hurdle_d6 단독 score=855.67
+[  728s]     core_d8 완료 iters=500 (215s)
+[  868s]     snc_d8 완료 iters=500 (141s)
+[  868s]   hurdle_d8 단독 score=882.31
+[ 1119s]     core_sub 완료 iters=500 (251s)
+[ 1281s]     snc_sub 완료 iters=418 (162s)
+[ 1281s]   hurdle_sub 단독 score=832.01
+[ 1282s]   Hurdle 3변종 평균 score=899.49
+[ 1282s] [2] 판정축 혼합분해 (call 3-class + success|call 3개)...
+
+[killed]
